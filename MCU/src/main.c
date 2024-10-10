@@ -1,3 +1,6 @@
+// Luke Summers lsummers@g.hmc.edu 10/9/24
+// STM32L432KC used to read quadrapture encoder and calculate motor speed in rev per sec
+
 #include "../lib/STM32L432KC.h"
 
 //pulses per loop for calculations when TIM1 counter resets
