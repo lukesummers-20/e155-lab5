@@ -57,7 +57,7 @@ void pollingDelay(TIM_TypeDef* TIM, int ms) {
 
 void genSqWave(int freq, int dur, int pin, GPIO_TypeDef* GPIO, TIM_TypeDef *TIM_1, TIM_TypeDef* TIM_2) {
   if (freq == 0) {
-    delay(TIM1, dur);
+    pollingDelay(TIM1, dur);
   } else {
     setArr(TIM1, dur);
     setArr(TIM2, 1000000 / (2 * freq));

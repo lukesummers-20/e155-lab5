@@ -1,8 +1,4 @@
-#include <stm32l432xx.h>
-#include "../lib/GPIO.h"
-#include "../lib/RCC.h"
-#include "../lib/TIM67.h"
-#include <stdio.h>
+#include "../lib/STM32L432KC.h"
 
 //pulses per loop for calculations when TIM1 counter resets
 #define LOOP_OFFSET ((int) 4800)

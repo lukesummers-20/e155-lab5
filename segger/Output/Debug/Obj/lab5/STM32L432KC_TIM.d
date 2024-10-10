@@ -1,20 +1,16 @@
-Output/Debug/Obj/lab5/main.o: \
-  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/src/main.c \
-  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/src/../lib/STM32L432KC.h \
+Output/Debug/Obj/lab5/STM32L432KC_TIM.o: \
+  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/lib/STM32L432KC_TIM.c \
+  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/lib/STM32L432KC_TIM.h \
   /Applications/SEGGER/SEGGER\ Embedded\ Studio\ 8.16a/include/stdint.h \
   /Applications/SEGGER/SEGGER\ Embedded\ Studio\ 8.16a/include/__SEGGER_RTL.h \
   /Applications/SEGGER/SEGGER\ Embedded\ Studio\ 8.16a/include/__SEGGER_RTL_ConfDefaults.h \
   /Applications/SEGGER/SEGGER\ Embedded\ Studio\ 8.16a/include/__SEGGER_RTL_Conf.h \
   /Applications/SEGGER/SEGGER\ Embedded\ Studio\ 8.16a/include/__SEGGER_RTL_Arm_Conf.h \
-  /Applications/SEGGER/SEGGER\ Embedded\ Studio\ 8.16a/include/stdio.h \
-  /Users/lukesummers/Desktop/e155/e155-lab5/segger/STM32L4xx/Device/Include/stm32l432xx.h \
+  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/lib/STM32L432KC_GPIO.h \
+  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/lib/stm32l432xx.h \
   /Users/lukesummers/Desktop/e155/e155-lab5/segger/CMSIS_5/CMSIS/Core/Include/core_cm4.h \
   /Users/lukesummers/Desktop/e155/e155-lab5/segger/CMSIS_5/CMSIS/Core/Include/cmsis_version.h \
   /Users/lukesummers/Desktop/e155/e155-lab5/segger/CMSIS_5/CMSIS/Core/Include/cmsis_compiler.h \
   /Users/lukesummers/Desktop/e155/e155-lab5/segger/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h \
   /Users/lukesummers/Desktop/e155/e155-lab5/segger/CMSIS_5/CMSIS/Core/Include/mpu_armv7.h \
-  /Users/lukesummers/Desktop/e155/e155-lab5/segger/STM32L4xx/Device/Include/system_stm32l4xx.h \
-  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/src/../lib/STM32L432KC_GPIO.h \
-  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/src/../lib/stm32l432xx.h \
-  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/src/../lib/STM32L432KC_RCC.h \
-  /Users/lukesummers/Desktop/e155/e155-lab5/MCU/src/../lib/STM32L432KC_TIM.h
+  /Users/lukesummers/Desktop/e155/e155-lab5/segger/STM32L4xx/Device/Include/system_stm32l4xx.h
