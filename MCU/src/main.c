@@ -101,7 +101,7 @@ int main(void) {
 
   while(1) {
     if (update) {
-      dist = delta(last, cur, !(TIM1->CR1 & (1 << 4)));
+      dist = delta(last, cur, direction);
       f3 = f2;
       f2 = f1;
       f1 = dist / (TIME_STEP * COUNTS_PER_ROTATION);
@@ -118,8 +118,9 @@ int main(void) {
 //   captures encoder position, tells main to calc a new frequency
 void TIM7_IRQHandler(void){
   cur = TIM1->CNT;
+  direction = !(TIM1->CR1 & (1 << 4));
   last = curHold;
   curHold = cur;
-  TIM7->SR &= ~(1 << 0);
   update = 1;
+  TIM7->SR &= ~(1 << 0);
 }
